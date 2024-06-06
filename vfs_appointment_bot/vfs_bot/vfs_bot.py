@@ -51,7 +51,7 @@ class VfsBot(ABC):
         """
 
         logging.info(
-            print(self.destination_country_code.upper()),
+            
             f"Starting VFS Bot for {self.source_country_code.upper()}-{self.destination_country_code.upper()}"
         )
 
