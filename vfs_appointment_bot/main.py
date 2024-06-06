@@ -83,9 +83,11 @@ def main() -> None:
     args = parser.parse_args()
     source_country_code = args.source_country_code
     destination_country_code = args.destination_country_code
+    print(source_country_code, destination_country_code)
     try:
         while True:
             vfs_bot = get_vfs_bot(source_country_code, destination_country_code)
+            print(source_country_code, destination_country_code)
             appointment_found = vfs_bot.run(args)
             if appointment_found:
                 break
@@ -95,6 +97,7 @@ def main() -> None:
             )
 
     except (UnsupportedCountryError, LoginError) as e:
+        
         logging.error(e)
     except Exception as e:
         logging.exception(e)

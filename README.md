@@ -235,7 +235,7 @@ We welcome contributions from the community to improve this project! Here's how 
 
 - **Report issues:** If you encounter any bugs or problems with the script, please create an issue on the project's repository.
 - **Suggest improvements:** Do you have ideas for making the script more user-friendly or feature-rich? Feel free to create an issue or pull request on the repository.
-- **Submit pull requests:** If you've made code changes that you think would benefit the project, create a pull request on the repository. Please follow any contribution guidelines outlined in a CONTRIBUTING.md file.
+- **Submit pull requests:** If you've made code changes that you think would benefit the project, create a pull request on the repository. Please follow any contribution guidelines outlined in a CONTRINBUTING.md file.
 
 ## Star History
 
